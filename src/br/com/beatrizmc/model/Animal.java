@@ -15,16 +15,17 @@ public class Animal {
     private Raca raca;
     private Cliente cliente;
     private String nome;
-    private String raça;
-    private String especie;
     private String sexo;
     private String pai;
     private String mae;
+    private String porte;
     private String Obs;
-    private String idade;
+    private int idade;
+    private Date dtCadastro;
     private Date dtNascimento;
     private String cor;
     private int numPedigree;
     private String status;
+    private double preco;
 
 }
