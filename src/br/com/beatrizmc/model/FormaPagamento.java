@@ -1,6 +1,5 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * cheque, avista, cartão debito, cartão credito
  */
 package br.com.beatrizmc.model;
 
@@ -11,4 +10,29 @@ package br.com.beatrizmc.model;
 public class FormaPagamento {
     private int cod;
     private String descricao;
+
+    public FormaPagamento() {
+    }
+
+    public int getCod() {
+        return cod;
+    }
+
+    public void setCod(int cod) {
+        this.cod = cod;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    @Override
+    public String toString() {
+        return "FormaPagamento{" + "cod=" + cod + ", descricao=" + descricao + '}';
+    }
+    
 }
